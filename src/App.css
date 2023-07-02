@@ -1,0 +1,42 @@
+.App{
+  text-align: center;
+}
+body{
+  text-align: center;
+}
+
+.slider{
+  
+  position: realtive;
+}
+.slide{
+  display: flex;
+  justify-content: center;
+}
+
+.left-arrow,
+.right-arrow{
+  position:absolute;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.left-arrow{
+  left: 10px;
+  color: white;
+  background-color: black;
+  border-radius: 9999px;
+  padding: 10px;
+}
+.right-arrow{
+  right: 10px;
+  color: white;
+  background-color: black;
+  border-radius: 9999px;
+  padding: 10px;
+}
+img{
+  height: 60%;
+  width: 60%;
+  
+}
